@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export NODE_ENV=production
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	babeljs src -d dist --ignore 'src/**/*.test.js' --copy-files

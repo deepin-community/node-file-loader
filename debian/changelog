@@ -1,0 +1,55 @@
+node-file-loader (6.2.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful test
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 19 Nov 2020 08:38:34 +0100
+
+node-file-loader (6.2.0-1) experimental; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 6.2.0
+  * Add debian/clean
+  * Enable part of upstream test using jest
+  * Update dependencies minimal versions
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 17 Nov 2020 13:50:40 +0100
+
+node-file-loader (3.0.1-2) unstable; urgency=medium
+
+  * Build with Babel 7
+  * Bump Standards-Version to 4.5.0 (no changes needed)
+  * Drop compat file, rely on debhelper-compat and bump compat level to 12
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 12 May 2020 23:59:54 +0530
+
+node-file-loader (3.0.1-1) unstable; urgency=medium
+
+  * New upstream version 3.0.1
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+  * Bump debhelper compatibility level to 11
+  * Use salsa.debian.org in Vcs-* fields
+  * Change section to javascript
+  * Switch to pkg-js-tools auto install and tests
+  * Build using babeljs
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 08 Aug 2019 16:28:39 +0000
+
+node-file-loader (0.11.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #874713)
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 09 Sep 2017 10:48:09 +0530
