@@ -11,7 +11,7 @@ Build-Depends:
  , node-babel7
  , node-loader-utils (>= 2.0.0~)
  , node-schema-utils (>= 3.0~)
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Homepage: https://github.com/webpack/file-loader
 Vcs-Git: https://salsa.debian.org/js-team/node-file-loader.git
 Vcs-Browser: https://salsa.debian.org/js-team/node-file-loader
@@ -22,7 +22,6 @@ Package: node-file-loader
 Architecture: all
 Depends:
  ${misc:Depends}
- , nodejs
  , node-loader-utils (>= 2.0.0~)
  , node-schema-utils (>= 3.0~)
 Description: file loader module for webpack
